@@ -11,5 +11,6 @@ namespace BancoInfra.Models
         public int Agencia { get; set; }
         public int NumeroConta { get; set; }
         public double Saldo { get; set; }
+
     }
 }
