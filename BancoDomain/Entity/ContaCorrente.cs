@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace BancoInfra.Models
+namespace BancoDomain.Entity
 {
     public class ContaCorrente
     {
@@ -11,6 +11,5 @@ namespace BancoInfra.Models
         public int Agencia { get; set; }
         public int NumeroConta { get; set; }
         public double Saldo { get; set; }
-
     }
 }

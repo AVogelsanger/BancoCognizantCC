@@ -1,11 +1,11 @@
-﻿using BancoInfra.Models;
+﻿using BancoDomain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace BancoInfra.Persistence
+namespace BancoDomain.Persistence
 {
     public class BancoContext : DbContext
     {
