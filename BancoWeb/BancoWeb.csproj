@@ -126,6 +126,7 @@
     <Compile Include="Repository\ContaCorrenteRepository.cs" />
     <Compile Include="Repository\IContaCorrenteRepository.cs" />
     <Compile Include="Unit\UnitOfWork.cs" />
+    <Compile Include="ViewModel\ContaCorrenteViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
